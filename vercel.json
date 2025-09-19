@@ -1,20 +1,16 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/index.html"
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.html"
     },
     {
-      "src": "/privacy-policy",
-      "dest": "/privacy-policy.html"
+      "source": "/terms-and-conditions",
+      "destination": "/terms-and-conditions.html"
     },
     {
-      "src": "/terms-and-conditions",
-      "dest": "/terms-and-conditions.html"
-    },
-    {
-      "src": "/cookie-policy",
-      "dest": "/cookie-policy.html"
+      "source": "/cookie-policy",
+      "destination": "/cookie-policy.html"
     }
   ],
   "headers": [
